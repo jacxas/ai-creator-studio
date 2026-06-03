@@ -1,0 +1,11 @@
+{
+  "name": "ai-creator-studio",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "mobile": "npm --workspace apps/mobile run start",
+    "api": "npm --workspace apps/api run dev"
+  }
+}

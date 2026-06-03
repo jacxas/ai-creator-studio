@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "AI Creator Studio",
+    "slug": "ai-creator-studio",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.aicreatorstudio.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0B0F19"
+      }
+    },
+    "plugins": [
+      "expo-image-picker"
+    ]
+  }
+}

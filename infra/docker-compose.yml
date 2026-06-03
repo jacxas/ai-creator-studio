@@ -1,0 +1,11 @@
+services:
+  api:
+    build:
+      context: ../apps/api
+    env_file:
+      - ../apps/api/.env
+    ports:
+      - "8080:8080"
+    volumes:
+      - ../apps/api/uploads:/app/uploads
+    restart: unless-stopped
